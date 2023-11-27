@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input[type="text"]::placeholder {
+        @apply text-sm text-[#6A6A6A]
+    }
+}
